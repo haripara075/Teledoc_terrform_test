@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "remote" {
-    organization = "Teledoc_Project"  # ⚠️  REPLACE WITH YOUR ACTUAL ORGANIZATION NAME
+    organization = "Teladoc_Project"  # ⚠️  REPLACE WITH YOUR ACTUAL ORGANIZATION NAME
     workspaces {
       name = "gh-actions-demo"
     }
